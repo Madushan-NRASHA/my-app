@@ -12,7 +12,9 @@ function About() {
      <h1 style={{color:'silver'}}>I Have Learned</h1><br />
       <Framework/>
       <FrameWSkill/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      
       <Lang/>
+      
       <div className="lang-pos">
       <LangSkill/>
       </div>

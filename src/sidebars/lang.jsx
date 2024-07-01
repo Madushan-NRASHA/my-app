@@ -7,7 +7,9 @@ import DImage from '../assets/Dart.jpeg'
 function lang() {
   return (
     <div>
+      
       <div className="align-lang">
+        
       <ParallaxCard 
           title="C++" 
           imageSrc={CImage}
