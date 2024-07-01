@@ -442,7 +442,7 @@ body {
 }
 .about_pos{
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 10%;
 }
 
@@ -616,4 +616,37 @@ circle {
   color: red;
   transform: scale(1.1);
 }
+.align-lang{
+  
+  display: flex;
+  flex-direction: row;
+  
+  
+}
 
+.align-lang{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 2rem;
+}
+.Frame-pos{
+  position: absolute;
+  left: 13%;
+  top: 10%
+}
+.lang-pos{
+  position: absolute;
+  top: 180%;
+ 
+}

@@ -1,32 +1,25 @@
 import React from 'react';
-import ParallaxCard from '../components/ParallaxCard';
-import ReactImage from '../assets/React_images.png';
-import Flutter from '../assets/flutter_image.jpeg';
-import Laravel from '../assets/Laravel.jpeg';
+import LangSkill from '../sidebars/LangSkill';
 import FrameWSkill from '../sidebars/SkillBar'
+import Lang from '../sidebars/lang'
 
+import Framework from '../sidebars/Framework';
 function About() {
   return (
-    <div className="about-container">
-      <h2 style={{ color: 'white' }}>About Page</h2>
-      <div className="card-container">
-        <ParallaxCard 
-          title="React" 
-          imageSrc={ReactImage}
-        />
-        <ParallaxCard 
-          title="Flutter" 
-          imageSrc={Flutter}
-        />
-        <ParallaxCard 
-          title="Laravel" 
-          imageSrc={Laravel}
-        />
+    <>
+     
+     <div className="Frame-pos">
+     <h1 style={{color:'silver'}}>I Have Learned</h1><br />
+      <Framework/>
+      <FrameWSkill/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Lang/>
+      <div className="lang-pos">
+      <LangSkill/>
       </div>
-      
-      <FrameWSkill />
+      </div>
 
-    </div>
+    </>
+   
   );
 }
 
